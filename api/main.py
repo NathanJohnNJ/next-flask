@@ -113,7 +113,7 @@ def main():
     )
     parser.add_argument(
         "--cmd-args",
-        default="/game.py",
+        default="game.py",
         help="arguments to pass to command (i.e. --cmd-args='arg1 arg2 --flag')",
     )
     args = parser.parse_args()
